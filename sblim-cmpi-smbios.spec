@@ -13,7 +13,6 @@ URL:		http://sblim.sourceforge.net/
 BuildRequires:	sblim-cmpi-base-devel
 BuildRequires:	sblim-cmpi-devel
 BuildRequires:	sed >= 4.0
-Requires:	%{name}-libs = %{version}-%{release}
 Requires:	sblim-cmpi-base
 Requires:	sblim-sfcb
 Requires:	sblim-sfcb-schema >= 2.7
