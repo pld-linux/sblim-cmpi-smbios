@@ -29,7 +29,7 @@ informacji o systemie z inwentarza BIOS zdalnie poprzez CIMOM.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 #%{__sed} -i -e 's/^PEGASUS=1/#&/' setting.cmpi
 
